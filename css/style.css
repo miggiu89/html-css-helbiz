@@ -1,0 +1,85 @@
+body{
+  font-size: 14px;
+  font-family:'open sans', sans-serif;
+}
+
+/* utility */
+.container1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: white;
+  z-index: 400;
+}
+/* inizio menu nav  */
+img.top-logo {
+  vertical-align: middle;
+}
+
+.menu-inline {
+  list-style: none;
+  text-align: right;
+  font-weight: bold;
+
+}
+
+.menu-inline li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 5px;
+}
+
+.menu-inline li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* fine nav */
+
+/* inizio jumbotron */
+.jumbo {
+  width: 100%;
+  height: 700px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.jumbo-text {
+  position: absolute;
+  top: 44%;
+  left: 49%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 70%;
+  text-align: center;
+
+}
+
+.img-logo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.jumbo-text h1 {
+  font-size: 60px;
+font-weight: 100;
+}
+
+.jumbo-text h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+}
+
+.app-play-store {
+  margin-top: 10px;
+}
+/* fine jumbotron */
