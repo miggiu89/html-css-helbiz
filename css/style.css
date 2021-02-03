@@ -83,3 +83,39 @@ font-weight: 100;
   margin-top: 10px;
 }
 /* fine jumbotron */
+@media screen and (min-width: 993px) {
+  .responsive-menu {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+  .responsive-menu{
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    padding: 3px;
+    margin-right:1px;
+  }
+
+  .menu-inline {
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px){
+
+  .responsive-menu{
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    padding: 3px;
+    margin-right:1px;
+  }
+
+  .menu-inline {
+    display: none;
+  }
+}
